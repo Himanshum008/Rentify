@@ -1,0 +1,21 @@
+{
+  "name": "rentify-mern-app",
+  "version": "1.0.0",
+  "description": "Rentify - Peer-to-Peer Rental Marketplace MERN Full Stack Application",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "seed": "cd backend && npm run seed",
+    "start:backend": "cd backend && npm start",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev"
+  },
+  "keywords": [
+    "mern",
+    "rental",
+    "socketio",
+    "cloudinary",
+    "marketplace"
+  ],
+  "author": "Himanshu Mourya",
+  "license": ""
+}
